@@ -1,0 +1,6 @@
+projectKey=tp-unit
+serverUrl=http://localhost:9000
+serverVersion=25.10.0.114319
+dashboardUrl=http://localhost:9000/dashboard?id=tp-unit
+ceTaskId=220fed67-619e-4e2e-9289-44263f902aa2
+ceTaskUrl=http://localhost:9000/api/ce/task?id=220fed67-619e-4e2e-9289-44263f902aa2

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+         colors="true"
+         cacheDirectory=".phpunit.cache">
+
+    <testsuites>
+        <testsuite name="TP Unit Tests">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <source>
+        <include>
+            <directory>src</directory>
+        </include>
+    </source>
+
+    <logging>
+        <junit outputFile="reports/log.xml"/>
+    </logging>
+
+    <coverage>
+        <report>
+            <clover outputFile="reports/coverage.xml"/>
+        </report>
+    </coverage>
+
+</phpunit>

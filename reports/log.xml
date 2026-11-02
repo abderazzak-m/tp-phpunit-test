@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\Users\dell\Desktop\tp-unit\phpunit.xml" tests="12" assertions="3" errors="9" failures="3" skipped="0" time="1.288810">
+    <testsuite name="TP Unit Tests" tests="12" assertions="3" errors="9" failures="3" skipped="0" time="1.288810">
+      <testsuite name="TpUnit\Tests\StagiaireTest" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" tests="12" assertions="3" errors="9" failures="3" skipped="0" time="1.288810">
+        <testcase name="testCreationStagiaire" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" line="11" class="TpUnit\Tests\StagiaireTest" classname="TpUnit.Tests.StagiaireTest" assertions="0" time="1.070243">
+          <error type="Error">TpUnit\Tests\StagiaireTest::testCreationStagiaire&#13;
+Error: Class "TpUnit\Stagiaire" not found
+&#13;
+C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php:13</error>
+        </testcase>
+        <testcase name="testNomEstNettoye" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" line="20" class="TpUnit\Tests\StagiaireTest" classname="TpUnit.Tests.StagiaireTest" assertions="0" time="0.000651">
+          <error type="Error">TpUnit\Tests\StagiaireTest::testNomEstNettoye&#13;
+Error: Class "TpUnit\Stagiaire" not found
+&#13;
+C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php:22</error>
+        </testcase>
+        <testcase name="testNomVideEstRefuse" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" line="27" class="TpUnit\Tests\StagiaireTest" classname="TpUnit.Tests.StagiaireTest" assertions="1" time="0.211024">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">TpUnit\Tests\StagiaireTest::testNomVideEstRefuse&#13;
+Failed asserting that exception of type "Error" matches expected exception "InvalidArgumentException". Message was: "Class "TpUnit\Stagiaire" not found" at
+C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php:31
+.</failure>
+        </testcase>
+        <testcase name="testAgeInvalideEstRefuse" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" line="34" class="TpUnit\Tests\StagiaireTest" classname="TpUnit.Tests.StagiaireTest" assertions="1" time="0.001060">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">TpUnit\Tests\StagiaireTest::testAgeInvalideEstRefuse&#13;
+Failed asserting that exception of type "Error" matches expected exception "InvalidArgumentException". Message was: "Class "TpUnit\Stagiaire" not found" at
+C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php:38
+.</failure>
+        </testcase>
+        <testcase name="testMoyenneInvalideEstRefusee" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" line="41" class="TpUnit\Tests\StagiaireTest" classname="TpUnit.Tests.StagiaireTest" assertions="1" time="0.000983">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">TpUnit\Tests\StagiaireTest::testMoyenneInvalideEstRefusee&#13;
+Failed asserting that exception of type "Error" matches expected exception "InvalidArgumentException". Message was: "Class "TpUnit\Stagiaire" not found" at
+C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php:45
+.</failure>
+        </testcase>
+        <testcase name="testStagiaireEstAdmis" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" line="48" class="TpUnit\Tests\StagiaireTest" classname="TpUnit.Tests.StagiaireTest" assertions="0" time="0.000557">
+          <error type="Error">TpUnit\Tests\StagiaireTest::testStagiaireEstAdmis&#13;
+Error: Class "TpUnit\Stagiaire" not found
+&#13;
+C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php:50</error>
+        </testcase>
+        <testcase name="testStagiaireEstRefuse" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" line="55" class="TpUnit\Tests\StagiaireTest" classname="TpUnit.Tests.StagiaireTest" assertions="0" time="0.000551">
+          <error type="Error">TpUnit\Tests\StagiaireTest::testStagiaireEstRefuse&#13;
+Error: Class "TpUnit\Stagiaire" not found
+&#13;
+C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php:57</error>
+        </testcase>
+        <testcase name="testMentionTresBien" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" line="62" class="TpUnit\Tests\StagiaireTest" classname="TpUnit.Tests.StagiaireTest" assertions="0" time="0.000545">
+          <error type="Error">TpUnit\Tests\StagiaireTest::testMentionTresBien&#13;
+Error: Class "TpUnit\Stagiaire" not found
+&#13;
+C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php:64</error>
+        </testcase>
+        <testcase name="testMentionBien" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" line="69" class="TpUnit\Tests\StagiaireTest" classname="TpUnit.Tests.StagiaireTest" assertions="0" time="0.000543">
+          <error type="Error">TpUnit\Tests\StagiaireTest::testMentionBien&#13;
+Error: Class "TpUnit\Stagiaire" not found
+&#13;
+C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php:71</error>
+        </testcase>
+        <testcase name="testMentionAssezBien" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" line="76" class="TpUnit\Tests\StagiaireTest" classname="TpUnit.Tests.StagiaireTest" assertions="0" time="0.001096">
+          <error type="Error">TpUnit\Tests\StagiaireTest::testMentionAssezBien&#13;
+Error: Class "TpUnit\Stagiaire" not found
+&#13;
+C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php:78</error>
+        </testcase>
+        <testcase name="testMentionPassable" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" line="83" class="TpUnit\Tests\StagiaireTest" classname="TpUnit.Tests.StagiaireTest" assertions="0" time="0.000835">
+          <error type="Error">TpUnit\Tests\StagiaireTest::testMentionPassable&#13;
+Error: Class "TpUnit\Stagiaire" not found
+&#13;
+C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php:85</error>
+        </testcase>
+        <testcase name="testMentionInsuffisant" file="C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php" line="90" class="TpUnit\Tests\StagiaireTest" classname="TpUnit.Tests.StagiaireTest" assertions="0" time="0.000720">
+          <error type="Error">TpUnit\Tests\StagiaireTest::testMentionInsuffisant&#13;
+Error: Class "TpUnit\Stagiaire" not found
+&#13;
+C:\Users\dell\Desktop\tp-unit\tests\stagiaireTest.php:92</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
