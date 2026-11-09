@@ -82,4 +82,8 @@ class Stagiaire
 
         return 'Insuffisant';
     }
+    public function test(){
+        return "test";
+    }
 }
+
