@@ -81,5 +81,11 @@ class Stagiaire
         }
 
         return 'Insuffisant';
+
+
+    }
+    public function __toString(): string
+    {
+        return "Nom: {$this->nom}, Age: {$this->age}, Moyenne: {$this->moyenne}";
     }
 }
