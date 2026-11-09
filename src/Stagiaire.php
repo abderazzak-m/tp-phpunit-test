@@ -88,4 +88,8 @@ class Stagiaire
     {
         return "Nom: {$this->nom}, Age: {$this->age}, Moyenne: {$this->moyenne}";
     }
+    public function test(){
+        return "test";
+    }
 }
+
